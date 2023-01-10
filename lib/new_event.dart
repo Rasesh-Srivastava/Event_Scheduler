@@ -21,7 +21,7 @@ class _NewEventScreenState extends State<NewEventScreen> {
       body: Center(
         child: Column(
               children: <Widget>[
-                Flexible(child: const SizedBox(height: 15)),
+                const SizedBox(height: 15),
                 Flexible(
                   child: SizedBox(
                     width: 360,
@@ -59,7 +59,7 @@ class _NewEventScreenState extends State<NewEventScreen> {
                     ),
                   ),
                 ),
-                Flexible(child: const SizedBox(height: 15)),
+                const SizedBox(height: 15),
                 Flexible(
                   child: SizedBox(
                     width: 360,
@@ -97,7 +97,7 @@ class _NewEventScreenState extends State<NewEventScreen> {
                     ),
                   ),
                 ),
-                Flexible(child: const SizedBox(height: 15)),
+                const SizedBox(height: 15),
                 Flexible(
                   child: SizedBox(
                     width: 360,
@@ -135,35 +135,33 @@ class _NewEventScreenState extends State<NewEventScreen> {
                     ),
                   ),
                 ),
-                Flexible(child: const SizedBox(height: 15)),
+                const SizedBox(height: 15),
                 Builder(
                   builder: (context) {
-                    return Flexible(
-                      child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                          padding: const EdgeInsets.all(10),
-                          backgroundColor: Colors.green[200],
-                          minimumSize: const Size(360,38),
-                          shape: const StadiumBorder(),
-                        ),
-                        //   style: ButtonStyle(
-                        //     backgroundColor: Colors.green[100],
-                        //     shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                        //       borderRadius: BorderRadius.circular(18),
-                        //     ))
-                        //   ),
-                          onPressed: () {
-                        List<String> newEventText = [
-                          _textEditingController.text,
-                           _textEditingControllerDate.text,
-                          _textEditingControllerTime.text,
-                        ];
-                        Navigator.of(context).pop(newEventText);
-                      },
-                          child: const Text('ADD',
-                          style: TextStyle(color: Colors.white,fontSize: 20),
-                          )
+                    return ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        padding: const EdgeInsets.all(10),
+                        backgroundColor: Colors.green[200],
+                        minimumSize: const Size(360,38),
+                        shape: const StadiumBorder(),
                       ),
+                      //   style: ButtonStyle(
+                      //     backgroundColor: Colors.green[100],
+                      //     shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                      //       borderRadius: BorderRadius.circular(18),
+                      //     ))
+                      //   ),
+                        onPressed: () {
+                      List<String> newEventText = [
+                        _textEditingController.text,
+                         _textEditingControllerDate.text,
+                        _textEditingControllerTime.text,
+                      ];
+                      Navigator.of(context).pop(newEventText);
+                    },
+                        child: const Text('ADD',
+                        style: TextStyle(color: Colors.white,fontSize: 20),
+                        )
                     );
                   }
                 )
