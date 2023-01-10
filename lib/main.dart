@@ -13,10 +13,10 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.deepPurple[300],
+        backgroundColor: Colors.green[300],
         appBar: AppBar(
         title: const Text('Event Scheduler'),
-        backgroundColor: Colors.deepPurple[700],
+        backgroundColor: Colors.green[800],
         centerTitle: true,
         ),
         body: TODOApp(),
@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
                     _list.add('Date: ${newText[1]} \nTime: ${newText[2]} \nEvent: ${newText[0]}');
                   });
                 },
-                backgroundColor: Colors.deepPurple[700],
+                backgroundColor: Colors.green[800],
                 child: const Icon(Icons.add),
               );
             }

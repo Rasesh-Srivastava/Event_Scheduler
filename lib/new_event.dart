@@ -12,16 +12,16 @@ class _NewEventScreenState extends State<NewEventScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[300],
+      backgroundColor: Colors.green[300],
       appBar: AppBar(
         title: const Text('New Event'),
-        backgroundColor: Colors.deepPurple[700],
+        backgroundColor: Colors.green[800],
         centerTitle: true,
       ),
       body: Center(
         child: Column(
               children: <Widget>[
-                const SizedBox(height: 15),
+                Flexible(child: const SizedBox(height: 15)),
                 Flexible(
                   child: SizedBox(
                     width: 360,
@@ -34,23 +34,23 @@ class _NewEventScreenState extends State<NewEventScreen> {
                         labelStyle: const TextStyle(color: Colors.white),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
                         disabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
-                        focusColor:Colors.deepPurple[700],iconColor: Colors.white,
+                        focusColor:Colors.green[800],iconColor: Colors.white,
                         filled: true,
-                        fillColor: Colors.deepPurple[700],
+                        fillColor: Colors.green[800],
                         contentPadding: const EdgeInsets.symmetric(vertical: 30),
                       ),
                       style: const TextStyle(color: Colors.white,fontSize: 18),
@@ -59,7 +59,7 @@ class _NewEventScreenState extends State<NewEventScreen> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 15),
+                Flexible(child: const SizedBox(height: 15)),
                 Flexible(
                   child: SizedBox(
                     width: 360,
@@ -72,23 +72,23 @@ class _NewEventScreenState extends State<NewEventScreen> {
                         labelStyle: const TextStyle(color: Colors.white),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
                         disabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
-                        focusColor:Colors.deepPurple[700],iconColor: Colors.white,
+                        focusColor:Colors.green[800],iconColor: Colors.white,
                         filled: true,
-                        fillColor: Colors.deepPurple[700],
+                        fillColor: Colors.green[800],
                         contentPadding: const EdgeInsets.symmetric(vertical: 30),
                       ),
                       style: const TextStyle(color: Colors.white,fontSize: 18),
@@ -97,7 +97,7 @@ class _NewEventScreenState extends State<NewEventScreen> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 15),
+                Flexible(child: const SizedBox(height: 15)),
                 Flexible(
                   child: SizedBox(
                     width: 360,
@@ -110,23 +110,23 @@ class _NewEventScreenState extends State<NewEventScreen> {
                         labelStyle: const TextStyle(color: Colors.white),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                       ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
                         disabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32),
-                          borderSide: BorderSide(color: Colors.deepPurple[700]??Colors.purple),
+                          borderSide: BorderSide(color: Colors.green[800]??Colors.purple),
                         ),
-                        focusColor:Colors.deepPurple[700],iconColor: Colors.white,
+                        focusColor:Colors.green[800],iconColor: Colors.white,
                         filled: true,
-                        fillColor: Colors.deepPurple[700],
+                        fillColor: Colors.green[800],
                         contentPadding: const EdgeInsets.symmetric(vertical: 30),
                     ),
                       style: const TextStyle(color: Colors.white,fontSize: 18),
@@ -135,33 +135,35 @@ class _NewEventScreenState extends State<NewEventScreen> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 15),
+                Flexible(child: const SizedBox(height: 15)),
                 Builder(
                   builder: (context) {
-                    return ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        padding: const EdgeInsets.all(10),
-                        backgroundColor: Colors.deepPurple[100],
-                        minimumSize: const Size(360,38),
-                        shape: const StadiumBorder(),
+                    return Flexible(
+                      child: ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          padding: const EdgeInsets.all(10),
+                          backgroundColor: Colors.green[200],
+                          minimumSize: const Size(360,38),
+                          shape: const StadiumBorder(),
+                        ),
+                        //   style: ButtonStyle(
+                        //     backgroundColor: Colors.green[100],
+                        //     shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                        //       borderRadius: BorderRadius.circular(18),
+                        //     ))
+                        //   ),
+                          onPressed: () {
+                        List<String> newEventText = [
+                          _textEditingController.text,
+                           _textEditingControllerDate.text,
+                          _textEditingControllerTime.text,
+                        ];
+                        Navigator.of(context).pop(newEventText);
+                      },
+                          child: const Text('ADD',
+                          style: TextStyle(color: Colors.white,fontSize: 20),
+                          )
                       ),
-                      //   style: ButtonStyle(
-                      //     backgroundColor: Colors.deepPurple[100],
-                      //     shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                      //       borderRadius: BorderRadius.circular(18),
-                      //     ))
-                      //   ),
-                        onPressed: () {
-                      List<String> newEventText = [
-                        _textEditingController.text,
-                         _textEditingControllerDate.text,
-                        _textEditingControllerTime.text,
-                      ];
-                      Navigator.of(context).pop(newEventText);
-                    },
-                        child: const Text('ADD',
-                        style: TextStyle(color: Colors.white,fontSize: 20),
-                        )
                     );
                   }
                 )
