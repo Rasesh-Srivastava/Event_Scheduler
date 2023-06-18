@@ -8,9 +8,9 @@ An Event Scheduler App created using Flutter.
 
 ## Screenshots
 
-![WhatsApp Image 2023-05-31 at 10 17 05 PM](https://github.com/Rasesh-Srivastava/Event_Scheduler/assets/116264587/edad0371-a1d7-45c8-8a16-39313f700b83)
+![Image 1](https://drive.google.com/uc?export=view&id=1pgCh6qoKW2EZCtopd999sSn-gGb-cgJY)
 
-![WhatsApp Image 2023-05-31 at 10 17 06 PM](https://github.com/Rasesh-Srivastava/Event_Scheduler/assets/116264587/fe937e46-ef77-4cd0-8bd4-c8d821bea9da)
+![Image 2](https://drive.google.com/uc?export=view&id=1tz8OTdiyfkxkmRCtx1nX-Wj-pDgkDVTR)
 
 ## Download APK File
 
